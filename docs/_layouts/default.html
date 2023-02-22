@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en" }}">
+<html lang="{{ page.lang | default: "tr" }}">
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "light" }}">
     <main class="page-content" aria-label="Content">
-      <nav class="side-panel">{%-include menu_item.html collection=site.data.menu.entries-%}</nav>
+      <nav class="side-panel">
+        <div id="panel_header">
+          <h1>{{site.title}}</h1>
+          <p id="panel_desc">bir fantastik evrenler ansiklopedisi</p>
+        </div>
+        <div class="panel_cont">{%-include menu_item.html collection=site.data.menu.entries-%}</div>
+      </nav>
       <div class="w">
         {{ content }}
       </div>
