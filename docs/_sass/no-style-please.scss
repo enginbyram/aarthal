@@ -19,7 +19,7 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
+html, body { background: rgba(248, 249, 251, 1); }
 
 html { height: 100%; }
 
@@ -37,11 +37,13 @@ body {
 
 h1 {
   text-transform: lowercase;
+  color: #2E3440;
 }
 
 h2, h3, h4, h5, h6 {
   margin-top: 3rem;
   text-transform: lowercase;
+  color: #2E3440;
 }
 
 hr {
@@ -64,12 +66,38 @@ li { margin: 0.4rem 0; }
     max-width: 650px;
     margin: 0 auto;
     padding: 4rem 6rem;
-    border: 1px solid black;
+
+    h1 {
+      padding: 3px 12px;
+      border-radius: .8em;
+      max-width: fit-content;
+      color: #3f69ac;
+      background-color: rgba(62, 116, 202, 0.067);
+
+    }
+
+    a {
+      color: #3f69ac;
+      max-width: fit-content;
+      border-radius: 1em;
+      padding: 5px 10px;
+      text-decoration: none;
+      transition: background-color .2s cubic-bezier(0.11, 0, 0.5, 0) 0s;
+    }
+    a:hover {
+      background-color: rgba(62, 116, 202, 0.067);
+
+    }
+
+    .footnotes p {
+      text-indent: 0%;
+    }
 
     p {
-      font-family: "Rubik", "Ubuntu", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       text-align: justify;
-      font-size: 1.175rem;
+      line-height: 1.5;
+      text-indent: 7%;
+      margin-bottom: 20px;
     }
 
     .post-meta {
@@ -83,12 +111,28 @@ li { margin: 0.4rem 0; }
     font-size: .875em;
     max-width: 250px;
     min-width: 250px;
-    border: 1px solid black;
+    // border: 1px solid black;
     padding: 15px;
     margin: 0 10px;
     height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.1235) 0px 3px 6px 0px;
+    border-radius: .5em;
+
+
+    a {
+      text-decoration: none;
+      color: #3f69ac;
+      max-width: fit-content;
+      border-radius: 1em;
+      padding: 5px 10px;
+    }
 
     h1 {
+      font-size: 2.175em;
+      margin-bottom: 0;
+    }
+
+    h1, p {
       padding: 0 10px;
     }
 
@@ -133,11 +177,11 @@ div.highlighter-rouge code {
 }
 
 blockquote {
-  font-style: italic;
-  border: thin solid black;
   padding: 1rem;
-
-  p { margin: 0; }
+  font-size: .975rem;
+  margin: 35px 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px 0px;
+  border-radius: 0.5em;
 }
 
 img {

@@ -14,20 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 ########################
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
-
 # Build settings
 markdown: kramdown
 theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
-
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%F" # customize how date is formatted
   show_description: false # show blog description in home page
-
-
 title: Aarthalopedia # name of the site
 author: Engin Bayram # name of site's author
 email: enginbayram.eru@gmail.com # email of site's author
@@ -35,13 +29,10 @@ github_username:  enginbyram
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 description: bir fantastik evrenler ansiklopedisi
-
-
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
-
-theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 timezone: Europe/Istanbul
+permalink: categories
 sass:
   style: :compressed
 

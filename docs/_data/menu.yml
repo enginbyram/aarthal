@@ -1,16 +1,15 @@
 entries:
-  - title: blog hakkında minnak bilgi
-    url: about
+  - title: bne
     entries:
-      - title: github repo
-        url: https://github.com/enginbyram/aarthal
-      - title: bne
+      - title: github
+        url: https://github.com/enginbyram
+      - title: instagram
         url: https://instagram.com/enginbyram_
 
 
-  - title: tüm yazılar
+  - title: aarthal
     post_list:
-      limit: 5
+      limit: 4
       show_more: true
-      show_more_text: See archive...
+      show_more_text: Devamı...
       show_more_url: archive.html
