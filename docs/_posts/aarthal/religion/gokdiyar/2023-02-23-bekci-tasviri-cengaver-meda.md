@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bekçi tasviri meda
+title: meda
 categories: aarthal religion
 ---
 >Çürümüş bedenler ancak şiddet ve zora dayatılarak yeniden hayatlandırılabilir.

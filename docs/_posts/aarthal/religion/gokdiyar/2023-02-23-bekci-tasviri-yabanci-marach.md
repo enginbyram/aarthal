@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bekçi tasviri marach
+title: marach
 categories: aarthal religion gokdiyar
 ---
 >“O, geçmişe bağımlı olandır. Fani hayatların anıları arasına inşaa ettiği kalesinde oturur, muhteşem güzellikte incilere bakakalır gibi onu çeken anıları izler de izler. Çoğu tecrübeli büyücü onun güdülerini anlamaya çalışır, fakat onun her zamanki esrarlı hali sırlarını bütün evrenden saklar.”

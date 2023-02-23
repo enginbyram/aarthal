@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bekçi tasviri sol
+title: sol
 categories: aarthal religion gokdiyar
 ---
 >Işık yok olduğunda uyku küçük bir ölüme dönüşür, rüyalar ise herkesi sonsuz akşama sürükleyecek fısıltılara. O uyumaz, omuzlarındaki yük yüzünden uyumaktan korkar.

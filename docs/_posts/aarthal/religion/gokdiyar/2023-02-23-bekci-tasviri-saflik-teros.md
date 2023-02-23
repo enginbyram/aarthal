@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bekçi tasviri teros
+title: teros
 categories: aarthal religion gokdiyar
 ---
 Teros veya Bakire; güzelliğin ve saflığın, aşkın ve evliliğin, doğanın ve yabanların; druizmin ve bununla birlikte druidlerin, mantarların, tarımın, çiftçilerin ve feylerin üzerinde önemli etkisi bulunan tasvirdir. Empis'e[^1] dalgaların anahtarı Dhizummar'ı ve Denizlerin Kraliçesi ünvanını vermiştir. Belegnor Amarthor'a[^2] druidzm öğretilerini bahşetmiştir.

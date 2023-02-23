@@ -9,7 +9,7 @@ entries:
 
   - title: aarthal
     post_list:
-      limit: 4
+      limit: 10
       show_more: true
       show_more_text: Devamı...
       show_more_url: archive.html

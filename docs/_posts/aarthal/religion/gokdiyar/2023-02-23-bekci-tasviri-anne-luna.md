@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bekçi tasviri luna
+title: luna
 categories: aarthal religion gokdiyar
 ---
 >Hayat bazen karanlıkta seyir eder, bazen ise oldukça aydınlık olur. Karanlıkta kalmış olabilirsin, ancak ilerisi yine aydınlık olacaktır. Ay ışığını takip et, doğru yolu bulacaksın.
